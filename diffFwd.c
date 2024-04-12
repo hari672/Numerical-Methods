@@ -10,7 +10,6 @@ int main()
 {
     float x = 5, h = 0.001;
     float diff = (f(x + h) - f(x))/h;
-    printf("The derivative of f(x) at x = %g is: ", x);
-    printf("%g\n", diff);
+    printf("f'(%g) = %f\n", x, diff);
     return 0;
 }
