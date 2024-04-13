@@ -1,4 +1,4 @@
-/* Simpson's 1/3 Rule*/
+/* Simpson's 1/3 Rule */
 #include <stdio.h>
 #include <math.h>
 
