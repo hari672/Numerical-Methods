@@ -7,7 +7,7 @@ float f(float x)
 }
 int main()
 {
-    int n = 10;
+    int n = 1;
     float a = 1, b = 3, intg;
     float sum = f(a) + f(b);
     float x0 = a;
@@ -19,7 +19,7 @@ int main()
         sum += 2 * f(x0);
     }
     intg = h / 2.0 * sum;
-    printf("The integral is %g\n", intg);
+    printf("The integral is %f\n", intg);
 
     return 0;
 }
