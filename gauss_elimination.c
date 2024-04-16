@@ -69,10 +69,10 @@ int main()
     }
 
     /* Print the solution */
-    printf("The solution is:\n");
+    printf("\nSolution:\n");
     for (i = 0; i < n; i++)
     {
-        printf("x[%d] = %g\n", i + 1, x[i]);
+        printf("\tx[%d] = %g\n", i + 1, x[i]);
     }
     return 0;
 }
