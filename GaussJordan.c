@@ -9,8 +9,9 @@ int main()
         {0, 2, 4, 3, 13},
         {3, 2, 5, 5, 24},
         {1, 2, 3, 6, 15}};
-    int n = 4, i, j, k;
-    float c, sum, temp;
+    int n = 4; // number of variables
+    int i, j, k;
+    float sum, temp, c;
     float x[n];
 
     for (j = 0; j < n; j++)
@@ -51,7 +52,7 @@ int main()
     }
     /* Print the matrix */
 
-    printf("Matrix I|b:\n");
+    printf("Matrix in the reduced echelon form:\n");
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < n + 1; j++)
