@@ -7,7 +7,7 @@ float f(float x)
 }
 int main()
 {
-    int n = 1;
+    int n = 5;
     float a = 1, b = 3, intg;
     float sum = f(a) + f(b);
     float x0 = a;
